@@ -7,7 +7,7 @@ function NavBar() {
             <nav className="nav">
                 <li className="list-nav">
                     <a href="#">
-                    <img src="http://placehold.it/" alt="placeholder"/>
+                    <img src="http://placehold.it/" alt="Muestles"/>
                     </a>
                 </li>
                 <li className="list-nav">
