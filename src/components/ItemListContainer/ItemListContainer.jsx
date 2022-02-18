@@ -1,5 +1,6 @@
 import React from 'react';
 import ListGroup from 'react-bootstrap/ListGroup';
+import ItemCount from './ItemCount';
 import './ItemList.css';
 
 const ListContainer = () => {
@@ -17,6 +18,7 @@ const ListContainer = () => {
                 </ListGroup.Item>
                 <ListGroup.Item as="li">Cuarto Item</ListGroup.Item>
                 </ListGroup>
+                <ItemCount initial={1}/>
             </div>
         </>
     )
